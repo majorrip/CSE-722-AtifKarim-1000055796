@@ -1,0 +1,157 @@
+[2025-08-09 01:27:30] Received data: Array
+(
+    [type] => plaintext_message
+    [clientId] => client1
+    [targetId] => client2
+    [content] => hello
+)
+
+[2025-08-09 01:27:30] Message saved
+[2025-08-09 01:27:36] Received data: Array
+(
+    [type] => plaintext_message
+    [clientId] => client2
+    [targetId] => client1
+    [content] => Hello
+)
+
+[2025-08-09 01:27:36] Message saved
+[2025-08-09 01:27:40] Received data: Array
+(
+    [type] => public_key
+    [clientId] => client1
+    [targetId] => client2
+    [content] => Array
+        (
+            [alg] => RSA-OAEP-256
+            [e] => AQAB
+            [ext] => 1
+            [key_ops] => Array
+                (
+                    [0] => encrypt
+                )
+
+            [kty] => RSA
+            [n] => yBQAKoUwwyYK5P1pAv8PzQC3mpYCG-9g2z5K_EaQLSWsmyBWgHMpPV-0LRqq0vOrZ48gLokpWfP8RGg1xuSoZ4rrXMhIMR2_G-ncEJYrI19iNPqtkcUsH9DICmfqWbQ7w_NnP6GMnd3d_zY-h87UwYYGwGx06lUgr7UCwJum2tBzzqvxt2gvRIfiE0sc0AI2Hwh2uv2j6QHHBVYZj6u9NNGRJkaiq3XscvhLRn5h_yoZZ-UTSrpNMIbD7cXlZvrSdbN1Ktk3kbXxQiDniFcda-TREX5w-A0fTCrTbSOwJS-CmqxPerRftlXqUTDMMgc9bGX1xVITqiX3DKsJmRY94w
+        )
+
+)
+
+[2025-08-09 01:27:40] Public key saved for client1
+[2025-08-09 01:27:44] Received data: Array
+(
+    [type] => public_key
+    [clientId] => client2
+    [targetId] => client1
+    [content] => Array
+        (
+            [alg] => RSA-OAEP-256
+            [e] => AQAB
+            [ext] => 1
+            [key_ops] => Array
+                (
+                    [0] => encrypt
+                )
+
+            [kty] => RSA
+            [n] => 0gV8q7ydUJJecjPICpHIWKihJlRdHIsb7W0p92Pdf__oLTvv9pmv_5rT3cgvfxDXAMQt7nW2mu2dJUZN8OYHrp4UFhrLiiKhGSLcttGgYNvXdR4RmDsVCQmUSASIGWinrhx2xUSA-uFczIjk5baSkOrv6akl0nvNAlWHIMFxrS-0S2UOaB6XFtd92AHWxZnZBMvgnJjGVxnBX9-5aS7xkJfqhua_iGcuFnv2bLHpsSONRcX9IITGl7UdrUrMVDjchhOgp7QjFM_YFh3FJCFEZQZCaXta5id-JYCf62ubaG9hF6uyzWhBKZOVr_ej-9Qh9gaYnB7rZ2L5KW1qPfrNDQ
+        )
+
+)
+
+[2025-08-09 01:27:44] Public key saved for client2
+[2025-08-09 01:27:55] Received data: Array
+(
+    [type] => aes_key
+    [clientId] => client1
+    [targetId] => client2
+    [content] => GL3yHdJZhyrz0md/r8rsIeOA/Hs1F9zgaWMr0TISltj8PLcJ8OaAS9KZlkkKwxELUyQKgmnx7xBn3BBziUZOMguexsn9KhbAcsh9q8FpIg3jicszuZkggq3Jz7F5B9opJ/dmjGzz88IK03TT5pPvGy0CMt3c1vE5N4hNr5O9co/8ffhOKsJ3LjSO4i7IJ4ae1viG2R6Q5Rvk82uBxiUUIyMRLwi9hZoS+znRrya2Za/OXK7NzPcjLXhic+QAR4CCZ5m1PIGnkW8ZvBLcR3Gf2IjM/AwcSUkCz8ASytHHnCKx/EW197XKbDVWw/DWqXM0JYP+pNicjqTIema5BjfOiw==
+)
+
+[2025-08-09 01:27:55] Unknown message type: aes_key
+[2025-08-09 02:35:02] Raw input: {"type":"plaintext_message","clientId":"karim","targetId":"atif","content":"Hello"}
+[2025-08-09 02:35:02] Parsed data: Array
+(
+    [type] => plaintext_message
+    [clientId] => karim
+    [targetId] => atif
+    [content] => Hello
+)
+
+[2025-08-09 02:35:02] Message saved
+[2025-08-09 02:35:07] Raw input: {"type":"plaintext_message","clientId":"atif","targetId":"karim","content":"hi"}
+[2025-08-09 02:35:07] Parsed data: Array
+(
+    [type] => plaintext_message
+    [clientId] => atif
+    [targetId] => karim
+    [content] => hi
+)
+
+[2025-08-09 02:35:07] Message saved
+[2025-08-09 02:35:13] Raw input: {"type":"public_key","clientId":"atif","targetId":"karim","content":{"alg":"RSA-OAEP-256","e":"AQAB","ext":true,"key_ops":["encrypt"],"kty":"RSA","n":"1lin0sNZcV5JL2RGhwEcPdK2Pd4CFv61NWq_KXJzd_VoOz4V7NTJ7aYiVKpG5bO2_9qoZBIrNstR34RdR6yZAAJ_wjXay2KoyMGWPp3a1j51YRBb-UqoXDl0CeR348PTBQ_fVYybQBJYc9iTXyrLhRmLL6a5_ID3iLsuf4lQrLXpNlmtAwdmFY5KzNSs3M-0cHuWBVY4XhkT0WbOyx4IIl4dgXTypVhvMCOgt21kPq_AUd6BZVgDL4QWsmxJmRlj6cFuf4OWXTjV5_arY7f17eUzlitrvuh8ptu1RCLORLrj1w6369MX0OQMhOZ1En3dPajR4mr-Pzsyc3BwyfTD0Q"}}
+[2025-08-09 02:35:13] Parsed data: Array
+(
+    [type] => public_key
+    [clientId] => atif
+    [targetId] => karim
+    [content] => Array
+        (
+            [alg] => RSA-OAEP-256
+            [e] => AQAB
+            [ext] => 1
+            [key_ops] => Array
+                (
+                    [0] => encrypt
+                )
+
+            [kty] => RSA
+            [n] => 1lin0sNZcV5JL2RGhwEcPdK2Pd4CFv61NWq_KXJzd_VoOz4V7NTJ7aYiVKpG5bO2_9qoZBIrNstR34RdR6yZAAJ_wjXay2KoyMGWPp3a1j51YRBb-UqoXDl0CeR348PTBQ_fVYybQBJYc9iTXyrLhRmLL6a5_ID3iLsuf4lQrLXpNlmtAwdmFY5KzNSs3M-0cHuWBVY4XhkT0WbOyx4IIl4dgXTypVhvMCOgt21kPq_AUd6BZVgDL4QWsmxJmRlj6cFuf4OWXTjV5_arY7f17eUzlitrvuh8ptu1RCLORLrj1w6369MX0OQMhOZ1En3dPajR4mr-Pzsyc3BwyfTD0Q
+        )
+
+)
+
+[2025-08-09 02:35:13] Public key saved for atif
+[2025-08-09 02:35:16] Raw input: {"type":"public_key","clientId":"karim","targetId":"atif","content":{"alg":"RSA-OAEP-256","e":"AQAB","ext":true,"key_ops":["encrypt"],"kty":"RSA","n":"33DYJmdUngVdEBmGFSQarLFHDBPbIVOlr4lmEIIeIGDVWCGfvEgdimrfaYhm6Mwom2sWEr-A2o8UCA5EgEjfWiI4_aa3sYdgKOZm3adJos9coVkS-H7ohTmdBiMs6SBjH6FlY3FWlU0-YGvj9DY1t8JnoGqevKBFVc1evrCzpn6K4nm7_hXJz17-FiV47gDeBKC0ii7p2fdbLmfp7eQvrmsil-GuL7JHFDtiXcoAV9Z_z-_eartEJZG0iLNT8jA8qKBe4olEl2lDF0-UrkzI2mnSEt88GfjyCT94MoBe_NSX9Z-pwTFjOXipyBiUillfdTUh_B6UAbFjLl4Eh2i2VQ"}}
+[2025-08-09 02:35:16] Parsed data: Array
+(
+    [type] => public_key
+    [clientId] => karim
+    [targetId] => atif
+    [content] => Array
+        (
+            [alg] => RSA-OAEP-256
+            [e] => AQAB
+            [ext] => 1
+            [key_ops] => Array
+                (
+                    [0] => encrypt
+                )
+
+            [kty] => RSA
+            [n] => 33DYJmdUngVdEBmGFSQarLFHDBPbIVOlr4lmEIIeIGDVWCGfvEgdimrfaYhm6Mwom2sWEr-A2o8UCA5EgEjfWiI4_aa3sYdgKOZm3adJos9coVkS-H7ohTmdBiMs6SBjH6FlY3FWlU0-YGvj9DY1t8JnoGqevKBFVc1evrCzpn6K4nm7_hXJz17-FiV47gDeBKC0ii7p2fdbLmfp7eQvrmsil-GuL7JHFDtiXcoAV9Z_z-_eartEJZG0iLNT8jA8qKBe4olEl2lDF0-UrkzI2mnSEt88GfjyCT94MoBe_NSX9Z-pwTFjOXipyBiUillfdTUh_B6UAbFjLl4Eh2i2VQ
+        )
+
+)
+
+[2025-08-09 02:35:16] Public key saved for karim
+[2025-08-09 02:35:25] Raw input: {"type":"aes_key","clientId":"karim","targetId":"atif","content":"j+6KitaLsLf118ORjtVMenMfdVxjrKPkhRrOfaQxqyS0apOwzBZarK0NmtxTHKfiykrmyUivlGOPJB9ByCajvfuHn8VfvO6/HLSShuN2z9HH3PjXlcXAOIPfJx33Hpl57NR5SgSOf0uHeSPTOI6fuk9TBSV80ciLjfupwIHF6BfoP1198dVjDA8QInRqWO+6EmAZh2h3VpuMU6FrJvWhhOvONm0fl80KU4bmc3w/BIvDrBzdXZ8yECextkGfcuGTLCl7EfeoZqQ4TeVQVWHklPNLz0m7IeGvSzZEVIaLh3tG69wicq34oiHJNw8DJFeKGnC9JI1AaU9d7KlSKawu/g=="}
+[2025-08-09 02:35:25] Parsed data: Array
+(
+    [type] => aes_key
+    [clientId] => karim
+    [targetId] => atif
+    [content] => j+6KitaLsLf118ORjtVMenMfdVxjrKPkhRrOfaQxqyS0apOwzBZarK0NmtxTHKfiykrmyUivlGOPJB9ByCajvfuHn8VfvO6/HLSShuN2z9HH3PjXlcXAOIPfJx33Hpl57NR5SgSOf0uHeSPTOI6fuk9TBSV80ciLjfupwIHF6BfoP1198dVjDA8QInRqWO+6EmAZh2h3VpuMU6FrJvWhhOvONm0fl80KU4bmc3w/BIvDrBzdXZ8yECextkGfcuGTLCl7EfeoZqQ4TeVQVWHklPNLz0m7IeGvSzZEVIaLh3tG69wicq34oiHJNw8DJFeKGnC9JI1AaU9d7KlSKawu/g==
+)
+
+[2025-08-09 02:35:25] Unknown message type: aes_key
+[2025-08-09 02:35:38] Raw input: {"type":"aes_key","clientId":"atif","targetId":"karim","content":"lRinU6ol9WBTZHM+3TMDmMmRW1tTlnS7xkftMIEUkW8Hv1VrFzAoV6nnKeMiJAYS2s9QYNUYQYyBc1VFWWfc7+tPnJAFqetO0LZiA7vdqnBOfcELWJNE1ghvdkDU47sLfctRVJ2h7OOv4HldAs8IdFsMBXSk2AzYUhizpTDCY9gUPaNiwU//LWQYoVNjqapdnIxaN7aVponUts3+DEU3pGUJs1X5HhnRJqOqHmeCy57S/66HRW4piBZWEjkjNWMJArrUGKpgXTe1Ffh+0l3hgKG5kpMOY1ARYzzSHA5BizG1+DUT99u+cl2ohfPhf1qbkESoCsaiGV1aAZMulZaytQ=="}
+[2025-08-09 02:35:38] Parsed data: Array
+(
+    [type] => aes_key
+    [clientId] => atif
+    [targetId] => karim
+    [content] => lRinU6ol9WBTZHM+3TMDmMmRW1tTlnS7xkftMIEUkW8Hv1VrFzAoV6nnKeMiJAYS2s9QYNUYQYyBc1VFWWfc7+tPnJAFqetO0LZiA7vdqnBOfcELWJNE1ghvdkDU47sLfctRVJ2h7OOv4HldAs8IdFsMBXSk2AzYUhizpTDCY9gUPaNiwU//LWQYoVNjqapdnIxaN7aVponUts3+DEU3pGUJs1X5HhnRJqOqHmeCy57S/66HRW4piBZWEjkjNWMJArrUGKpgXTe1Ffh+0l3hgKG5kpMOY1ARYzzSHA5BizG1+DUT99u+cl2ohfPhf1qbkESoCsaiGV1aAZMulZaytQ==
+)
+
+[2025-08-09 02:35:38] Unknown message type: aes_key
